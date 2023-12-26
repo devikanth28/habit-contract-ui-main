@@ -8,7 +8,7 @@ import CreateContract from "./components/screens/CreateContract";
 const Routing = () => {
     return (<React.Fragment>
             <Routes>
-                <Route Component={HomePage} path="/" />
+                <Route Component={HomePage} path="/home" />
                 <Route Component={SignIn} path="/signIn" />
                 <Route Component={SignUp} path="/signUp" />
                 <Route Component={CreateContract} path="/contract" />

@@ -19,7 +19,7 @@ const Header = () => {
                             <button type="button" class="btn btn-dark btn-lg">SignUp</button>
                         </Link>}
                         { !user && <span> Welcome errtytyutyutu{user?.userName}</span>}
-                        <Link className="mx-3" to={`${user ? 'signOut' : 'signIn'}`}>
+                        <Link className="mx-3" to={`${user ? 'signOut' : '/signIn'}`}>
                             <button type="button" class="btn btn-dark btn-lg">{`${user ? 'SignOut' : 'SignIn'}`}</button>
                         </Link>
                     </div>

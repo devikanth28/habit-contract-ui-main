@@ -16,12 +16,11 @@ function App() {
     <React.Fragment>
       <UserContext.Provider value={{user,setUser}}>
         <ToastContext.Provider value = {{toastContent, setToastContent}}>
-      <ToastContextProvider>
+      <ToastContextProvider/>
       <BrowserRouter>
         <Header />
         <Routing />
       </BrowserRouter>
-      </ToastContextProvider>
       </ToastContext.Provider>
       </UserContext.Provider>
     </React.Fragment>
